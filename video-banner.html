@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Banner | Portfolio one page Bootstrap Website Template</title>
+    <!-- favion -->
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">      
+    <!-- include font awesome, themify-icons, wow js animation, magnificPopup and FlexSlider -->
+    <link media="all" rel="stylesheet" href="css/plugins.css">
+    <!-- include bootstrap and custom  css -->
+    <link media="all" rel="stylesheet" href="css/video-banner.min.css">
+</head>
+
+<body>
+    <!-- Pre Loader -->
+    <div class="preloader" id="pageLoad">
+        <div class="holder">
+            <div class="sp sp-wave"></div>
+        </div>
+    </div>
+
+    <!-- main wrapper of the page -->
+    <div id="wrap">
+
+        <!-- Header -->
+        <header class="navbar-fixed-top full-width bg-light header-sm" id="header">
+            <div class="container">
+                <!-- main navigation of the page -->
+                <nav class="navbar navbar-default" id="mainnav">
+                    <div class="header-navbar">
+
+                        <!-- logo of the page -->
+                        <div class="logo">
+                            <a href="#home">
+                                <img class="normal" src="images/logo-yellow.svg">
+                                <img class="gray" src="images/logo-yellow-gray.svg">
+                            </a>
+                        </div>
+
+                        <!-- Header Right -->
+                        <div class="header-right">
+                            <ul>
+                                <li>
+                                    <a href="javascript:void(0)" id="search-toggle" data-selector="#header-2">
+                                        <span>
+                                            <i class="ti-search"></i>
+                                            <i class="ti-close"></i>
+                                        </span>
+                                    </a>
+                                </li> 
+                            </ul>
+                        </div>
+
+                         <!-- Toggle navigation -->
+                        <button type="button" class="navbar-toggle nav-opener" data-toggle="collapse" data-target="#nav"> 
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <!-- Search form -->
+                        <form action="" class="search-box">
+                            <input type="text" class="form-control search-input" placeholder="Type here to search..." />
+                        </form>
+
+                    </div>
+
+                    <!-- main menu items -->
+                    <div class="collapse navbar-collapse" id="nav">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#work">Work</a></li>
+                            <li><a href="#review">Review</a></li>
+                            <li class="dropdown"> <a href="#blog" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog-listing.html">Blog Listing</a></li>
+                                    <li><a href="blog-single.html">Single Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#costing">Pricing</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Banner -->
+        <section class="hero banner window-height single-image" id="home">
+            <div class="banner-video bg-stretch">
+                <span class="color-overlay black"></span>
+                <video src="videos/meeting.mp4" autoplay muted loop></video>
+            </div>
+
+            <!--Heading Text -->
+            <div class="banner-caption text-center">
+                <div class="container shadow">
+                    <h1 class="brand-heading bold text-uppercase wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.5s"><big>Video Background</big> </h1>
+                    <p class="lead light wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s"><big>Prolific is a modern and simple template.
+                        Build on  bootstrap-scss <br /> framework for your best solution</big></p>
+                    <a href="#services" id="view-more" class="btn btn-default white shadow btn-md radius text-uppercase wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">Explore more</a> </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progressbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <div class="progress-item">
+                                <div class="barra-nivel" data-nivel="20%"></div>
+                            </div>
+                            <span class="progress-title"> <big>01</big> Intro </span> </div>
+                        <div class="col-xs-3">
+                            <div class="progress-item">
+                                <div class="barra-nivel" data-nivel="57%"></div>
+                            </div>
+                            <span class="progress-title"> <big>02</big> Work </span> </div>
+                        <div class="col-xs-3">
+                            <div class="progress-item">
+                                <div class="barra-nivel" data-nivel="84%"></div>
+                            </div>
+                            <span class="progress-title"> <big>03</big> About </span> </div>
+                        <div class="col-xs-3">
+                            <div class="progress-item">
+                                <div class="barra-nivel" data-nivel="45%"></div>
+                            </div>
+                            <span class="progress-title"> <big>04</big> Contact </span> </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Contant -->
+        <div class="content">
+
+            <!--Services-->
+            <section class="services common-box text-center" id="services">
+                <div class="container">
+                    <div class="section-title text-center text-uppercase separator">
+                        <h2>Our Services</h2>
+                    </div>
+                    <div class="row text-block">
+                        <div class="col-md-offset-2 col-md-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+                    <div class="row what-we-do">
+                        <div class="row">
+                            <div class="col-lg-10 col-lg-offset-1">
+                                <ul>
+
+                                    <!-- Iteam 01 -->
+                                    <li class="col-sm-4 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms"> <span class="icon-wrap"><i class="fa fa-4x fa-paper-plane"></i></span>
+                                        <h4>Ready to Ship</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </li>
+
+                                    <!-- Iteam 02 -->
+                                    <li class="col-sm-4 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="500ms"> <span class="icon-wrap"><i class="fa fa-4x fa-newspaper-o"></i></span>
+                                        <h4>Up to Date</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </li>
+
+                                    <!-- Iteam 03 -->
+                                    <li class="col-sm-4 wow fadeInDown" data-wow-duration="500ms" data-wow-delay="700ms"> <span class="icon-wrap"><i class="fa fa-4x fa-diamond"></i></span>
+                                        <h4>Sturdy Templates</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- About Secton -->
+            <section class="common-box about parallax" id="about" style="background-image:url(images/parallax/img-02.jpg)">
+                <span class="color-overlay"></span>
+                <div class="row same-height">
+                    <div class="col-md-6 height">
+                        <div class="bg-stretch wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s"><img src="images/coffee.jpg" alt="image dis"></div>
+                    </div>
+
+                    <div class="col-md-6 intro  height">
+                        <div class="intro-text common-box wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                            <div class="section-title">
+                                <h2>About us</h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="#" class="btn btn-primary btn-md outline radius">Explore More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Counter Block -->
+            <aside class="count-block text-center">
+                <ul>
+                    <li class="col-sm-3">
+                        <div class="holder"> <span class="counter">575</span> <span class="text">Coffee Cups</span> </div>
+                    </li>
+                    <li class="col-sm-3">
+                        <div class="holder"> <span class="counter">545</span> <span class="text">Projects</span> </div>
+                    </li>
+                    <li class="col-sm-3">
+                        <div class="holder"> <span class="counter">475</span> <span class="text">Working Days</span> </div>
+                    </li>
+                    <li class="col-sm-3">
+                        <div class="holder"> <span class="counter">290</span> <span class="text">Happy Clients</span> </div>
+                    </li>
+                </ul>
+            </aside>
+
+
+            <!-- Work List -->
+            <section class="work common-box text-center" id="work">
+                <div class="container">
+                    <div class="section-title text-uppercase separator text-center">
+                        <h2>our work</h2>
+                    </div>
+
+                    <div class="row text-block">
+                        <div class="col-md-offset-2 col-md-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+
+                    <div class="work-list grid">
+                        <!-- Work item 1 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-01" class="item wow fadeInLeft" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-01.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Work item 2 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-02" class="item wow fadeInDown" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-02.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Work item 3 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-03" class="item wow fadeInUp" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-03.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Work item 4 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-04" class="item wow fadeInRight" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-04.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Work item 5 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-05" class="item wow fadeInLeft" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-05.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Work item 6 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-06" class="item wow fadeInUp" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-06.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- Work item 7 -->
+                        <div class="item-wrap grid-item">
+                            <a href="#workModal-07" class="item wow fadeInRight" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.25s" data-toggle="modal"> <img src="images/portfolio/img-07.jpg" class="fill" alt="image dis">
+                                <div class="caption">
+                                    <div class="inner-caption"> <i class="fa fa-image"></i>
+                                        <h4>creatively designed</h4>
+                                        <p>Lorem ipsum dolor sit</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="text-center"><a href="#" class="btn btn-primary btn-md outline radius">View More <i class="fa fa-plus-circle"></i></a></div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section class="common-box text-center featured-review parallax" id="review" style="background-image:url(images/parallax/img-03.jpg)">
+                <span class="color-overlay"></span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-offset-1 col-lg-10">
+                            <div id="review-list">
+                                <!-- Item 1 -->
+                                <div class="item">
+                                    <h4>Fantastic working environment</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc at nunc congue ultrices. Vivamus scelerisque justo libero, vehicula pulvinar est viverra in. Maecenas ac felis id tortor egestas porta ac eget velit. Curabitur volutpat consectetur bibendum.</p>
+                                    <p class="review-by"><img src="images/clients/client-01.jpg" class="fill" alt="img dis"><span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>Tecumseh, Australia<span class="date">May 02, 2017</span></p>
+                                </div>
+                                <!-- Item 2 -->
+                                <div class="item">
+                                    <h4>Amazing teamwork</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac nunc at nunc congue ultrices. Vivamus scelerisque justo libero, vehicula pulvinar est viverra in. Maecenas ac felis id tortor egestas porta ac eget velit. Curabitur volutpat consectetur bibendum.</p>
+                                    <p class="review-by"><img src="images/clients/client-02.jpg" class="fill" alt="img dis"><span class="rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>Antiman, Span<span class="date">April 20, 2017</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News and Blogs -->
+            <section class="common-box newsnblog text-center" id="blog">
+                <div class="container">
+                    <div class="section-title text-uppercase separator text-center">
+                        <h2>Latest blog</h2>
+                    </div>
+                    <div class="row">
+                        <!-- item 1 -->
+                        <div class="col-md-4">
+                            <div class="item-wrap">
+                                <div class="intro-image"> <img src="images/blog/img-01.jpg" class="fill" alt="img dis"> <span class="date"><big>15</big>Jan</span><a href="#" class="blog-link"><i class="fa fa-link"></i></a> </div>
+                                <div class="caption">
+                                    <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <ul class="blog-info">
+                                        <li class="view">542</li>
+                                        <li class="comment">17</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 2 -->
+                        <div class="col-md-4">
+                            <div class="item-wrap">
+                                <div class="intro-image"> <img src="images/blog/img-02.jpg" class="fill" alt="img dis"> <span class="date"><big>15</big>Jan</span><a href="#" class="blog-link"><i class="fa fa-link"></i></a> </div>
+                                <div class="caption">
+                                    <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <ul class="blog-info">
+                                        <li class="view">542</li>
+                                        <li class="comment">17</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item 3 -->
+                        <div class="col-md-4">
+                            <div class="item-wrap">
+                                <div class="intro-image"> <img src="images/blog/img-03.jpg" class="fill" alt="img dis"> <span class="date"><big>15</big>Jan</span><a href="#" class="blog-link"><i class="fa fa-link"></i></a> </div>
+                                <div class="caption">
+                                    <h4><a href="#">Lorem ipsum dolor sit amet</a></h4>
+                                    <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <ul class="blog-info">
+                                        <li class="view">542</li>
+                                        <li class="comment">17</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Price Table -->
+            <section class="price-table common-box parallax" id="costing" style="background-image:url(images/parallax/img-04.jpg)">
+                <span class="color-overlay"></span>
+                <div class="container text-center">
+                    <div class="section-title text-center text-uppercase separator">
+                        <h2>Choose Your Plan</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <ul class="package-wrap">
+                                <!-- Item 1 -->
+                                <li class="col-sm-4">
+                                    <div class="item-wrap wow fadeInLeft animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                                        <div class="title-wrap">
+                                            <h3>Standard</h3>
+                                            <small>Classic Plan</small> </div>
+                                        <span class="cost"> <big>$5</big> / per month </span>
+                                        <ul>
+                                            <li><strong>10GB</strong> Free Storage</li>
+                                            <li><strong>5</strong> New Page</li>
+                                            <li><strong>100GB</strong> Monthly data Transfar</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary btn-md outline radius">Select Plan</a> </div>
+                                </li>
+                                <!-- Item 2 -->
+                                <li class="col-sm-4">
+                                    <div class="item-wrap active wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                                        <div class="title-wrap">
+                                            <h3>Busuness</h3>
+                                            <small>Best Choice</small> </div>
+                                        <span class="cost"> <big>$10</big> / per month </span>
+                                        <ul>
+                                            <li><strong>20GB</strong> Free Storage</li>
+                                            <li><strong>15</strong> New Page</li>
+                                            <li><strong>150GB</strong> Monthly data Transfar</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary btn-md radius">Select Plan</a> </div>
+                                </li>
+                                <!-- Item 3 -->
+                                <li class="col-sm-4">
+                                    <div class="item-wrap  wow fadeInRight animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                                        <div class="title-wrap">
+                                            <h3>Premiums</h3>
+                                            <small>Unlimited Features</small> </div>
+                                        <span class="cost"> <big>$25</big> / per month </span>
+                                        <ul>
+                                            <li><strong>Unlimited</strong> Free Storage</li>
+                                            <li><strong>Unlimited</strong> New Page</li>
+                                            <li><strong>Unlimited</strong> Monthly data Transfar</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-primary btn-md outline radius">Select Plan</a> </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Our Team -->
+            <section class="common-box text-center team" id="team">
+                <div class="container">
+                    <div class="section-title text-center text-uppercase separator">
+                        <h2>our team</h2>
+                    </div>
+
+                    <div class="row text-block">
+                        <div class="col-md-offset-2 col-md-8">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="team-list">
+
+                            <!-- Item 1 -->
+                            <div class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.5s" data-wow-delay="0.15s">
+                                <div class="item-wrap">
+                                    <div class="item">
+                                        <img src="images/team/team-01.jpg" class="fill" alt="image dis">
+                                        <div class="caption">
+                                            <div class="social-link"><a href="#facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a><a href="#twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a><a href="#pinterest" rel="nofollow" target="_blank"><i class="fa fa-pinterest-p"></i></a><a href="#instagram" rel="nofollow" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Gjergj Berard</h4>
+                                <span class="designation">Graphic Design - From 2005</span>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="1.75s" data-wow-delay="0.30s">
+                                <div class="item-wrap">
+                                    <div class="item">
+                                        <img src="images/team/team-02.jpg" class="fill" alt="image dis">
+                                        <div class="caption">
+                                            <div class="social-link"><a href="#facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a><a href="#twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a><a href="#pinterest" rel="nofollow" target="_blank"><i class="fa fa-pinterest-p"></i></a><a href="#instagram" rel="nofollow" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Ricardo Marcus</h4>
+                                <span class="designation">Graphic Design - From 2010</span> 
+                            </div>
+
+                            <!-- Item 3 -->
+                            <div class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.45s">
+                                <div class="item-wrap">
+                                    <div class="item">
+                                        <img src="images/team/team-03.jpg" class="fill" alt="image dis">
+                                        <div class="caption">
+                                            <div class="social-link"><a href="#facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a><a href="#twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a><a href="#pinterest" rel="nofollow" target="_blank"><i class="fa fa-pinterest-p"></i></a><a href="#instagram" rel="nofollow" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Arjun Vinicio</h4>
+                                <span class="designation">Graphic Design - From 2007</span>
+                            </div>
+
+                            <!-- Item 4 -->
+                            <div class="wow fadeInUp animated" data-wow-offset="30" data-wow-duration="2s" data-wow-delay="0.45s">
+                                <div class="item-wrap">
+                                    <div class="item">
+                                        <img src="images/team/team-04.jpg" class="fill" alt="image dis">
+                                        <div class="caption">
+                                            <div class="social-link"><a href="#facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a><a href="#twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a><a href="#pinterest" rel="nofollow" target="_blank"><i class="fa fa-pinterest-p"></i></a><a href="#instagram" rel="nofollow" target="_blank"><i class="fa fa-instagram"></i></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h4>Bayram Avilius</h4>
+                                <span class="designation">Graphic Design - From 2007</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Our Clients -->
+            <section class="clients bg-gray">
+                <div class="container">
+                    <div class="client-list">
+                        <div>
+                            <a href="#"><img src="images/logos/audioiungle.png" alt="image dis"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/logos/creative-market.png" alt="image dis"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/logos/envato.png" alt="image dis"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/logos/graphicriver.png" alt="image dis"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/logos/logo_adidas.png" alt="image dis"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/logos/logo-nike.png" alt="image dis"></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="images/logos/themeforest.png" alt="image dis"></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section  -->
+            <section class="common-box contact text-center parallax" id="contact" style="background-image:url(images/parallax/world-map.svg)">
+                <span class="color-overlay"></span>
+                <div class="container">
+                    <div class="section-title text-center text-uppercase separator">
+                        <h2>Contact Us</h2>
+                    </div>
+                    <!-- Contact Info  -->
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <ul class="contact-details">
+                                <li class="col-sm-4"> <i class="fa fa-map-o wow bounceIn"></i>123 6th St. Melbourne, FL 32904 </li>
+                                <li class="col-sm-4"> <a href="mailto:info@yourdomain.com"><i class="fa fa-envelope-o wow bounceIn"></i> info@yourdomain.com</a> </li>
+                                <li class="col-sm-4"> <i class="fa fa-phone wow bounceIn"></i> + 714-555-1212 </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form  -->
+                    <div class="row">
+                        <div class="col-lg-10 col-lg-offset-1">
+                            <form name="message" id="contactUs" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                    <div class="col-lg-12 text-center">
+                                        <div id="success"></div>
+                                        <button type="submit" class="btn btn-md text-uppercase btn-primary">Send Message &nbsp;<i class="fa fa-paper-plane-o"></i></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+        <!--//-End Content -->
+
+
+        <!--Footer -->
+        <div class="footer-height"></div>
+        <footer class="fixed" id="footer">
+            <div class="common-box">
+                <div class="container text-center">
+                    <!-- footer logo -->
+                    <div class="logo">
+                        <a href="#"><img src="images/logo-icon-yellow.svg"></a>
+                    </div>
+                    <!-- Social Media-->
+                    <div class="social-media"> <a href="#facebook" rel="nofollow" target="_blank"><i class="fa fa-facebook"></i></a> <a href="#twitter" rel="nofollow" target="_blank"><i class="fa fa-twitter"></i></a> <a href="#pinterest" rel="nofollow" target="_blank"><i class="fa fa-pinterest-p"></i></a> <a href="#instagram" rel="nofollow" target="_blank"><i class="fa fa-instagram"></i></a> </div>
+                    <!-- copy rights -->
+                    <span class="copy-right"> &copy; copy rights 2017 All Rights Reserved. Made with  by <a href="#" rel="nofollow" target="_blank"><strong>nd Theme p.ltd</strong></a> </span> </div>
+            </div>
+        </footer>
+
+    </div>
+    <!--//-End Page Wrapper -->
+    
+    <!-- Work List Modals -->
+    <!-- Product Modal 1 -->
+    <div class="full-modal modal" id="workModal-01" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-01.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Modal 2 -->
+    <div class="full-modal modal" id="workModal-02" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-02.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Modal 3 -->
+    <div class="full-modal modal" id="workModal-03" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-03.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Modal 4 -->
+    <div class="full-modal modal" id="workModal-04" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-04.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Modal 5 -->
+    <div class="full-modal modal" id="workModal-05" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-05.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Modal 6 -->
+    <div class="full-modal modal" id="workModal-06" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-06.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Product Modal 7 -->
+    <div class="full-modal modal" id="workModal-07" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content common-box">
+            <div class="close-modal" data-dismiss="modal"> <i>&#9587;</i> </div>
+            <div class="container fadeIn animated">
+                <div class="modal-banner"> <img src="images/portfolio/banner/img-07.jpg" class="fill" alt="img dis">
+                    <div class="caption">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <h2>Project Title</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <ul class="product-info">
+                                    <li class="date">May 15, 2016</li>
+                                    <li class="view">17</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4"> <a href="#" class="btn btn-primary btn-md radius outline">Visit Website</a> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor accumsan congue. Vestibulum pretium magna arcu. Nam rhoncus, felis in commodo imperdiet, quam lacus vehicula ligula, ut fermentum urna felis nec elit. Sed eu lacus commodo, porta diam vel, dapibus turpis. Nunc imperdiet diam in dictum porta.</p>
+                        <div class="highlights">
+                            <h3>Product Features</h3>
+                            <ul>
+                                <li>Sed et neque ut metus efficitur eleifend vel vitae leo.</li>
+                                <li>Mauris a ante gravida, blandit leo id, fringilla ante.</li>
+                                <li>Morbi bibendum erat eget est aliquet luctus.</li>
+                                <li>Duis lacinia erat eu lorem hendrerit facilisis.</li>
+                                <li>Mauris efficitur felis ac nibh semper, sed tincidunt turpis fringilla.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQUERY LIBRARY -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <!-- jQuery easing -->
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <!-- boostrap javascript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Combine plugins  -->
+    <script src="js/plugins.js"></script>
+    <!-- custom script  -->
+    <script src="js/custom.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104402586-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
